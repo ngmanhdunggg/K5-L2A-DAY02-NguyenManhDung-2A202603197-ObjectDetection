@@ -25,5 +25,5 @@
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
 | `drive_002` | Xe con bị xe khác che một phần nhưng vẫn nhận diện được loại xe | Gán `car`, box ôm sát phần nhìn thấy | Xe bị che vẫn phải gán nếu nhận diện được lớp; không đoán phần bị che |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_028` | Xe con màu bạc ở góc dưới bên phải bị cắt bởi rìa ảnh | Gán `car`, box ôm sát phần xe nhìn thấy và chạm rìa ảnh | Phần còn lại đủ nhận diện lớp; không suy đoán phần xe nằm ngoài ảnh |
+| `drive_041` | Xe buýt khớp nối gồm hai phần thân, dễ nhầm thành hai vật thể | Gán một box `bus` bao quanh toàn bộ phần xe nhìn thấy | Hai phần thân nối liền thuộc cùng một xe; mỗi xe chỉ có một box |
